@@ -4,6 +4,7 @@ import pandas as pd
 import pickle
 import numpy as np
 
+from app import app
 app = Flask(__name__)
 
 model = load_model('deployment_28042020')
